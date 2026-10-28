@@ -1,0 +1,3 @@
+formulaName;description;category;expression;name;label;unit;min;max;default
+Valor por ação;Modelo autorizado de teste;Valuation;valor / acoes;valor;Valor patrimonial;BRL;0;;
+Valor por ação;Modelo autorizado de teste;Valuation;valor / acoes;acoes;Ações;acoes;0.000001;;

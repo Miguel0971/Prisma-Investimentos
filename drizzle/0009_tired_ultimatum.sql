@@ -1,0 +1,2 @@
+ALTER TABLE "sync_jobs" ADD COLUMN "source_key" text;--> statement-breakpoint
+CREATE UNIQUE INDEX "jobs_one_active_source" ON "sync_jobs" USING btree ("source_key") WHERE "sync_jobs"."status" IN ('queued','running');
